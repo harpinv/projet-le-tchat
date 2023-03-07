@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFCC99;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+h1 {
+    align-self: center;
+    font-size: 50px;
+}
+
+#liens {
+    align-self: center;
+}
+
+.bout {
+    font-size: 25px;
+    margin-right: 50px;
+    padding: 5px;
+    background-color: #CCCCCC;
+    border-radius: 20px;
+}
+
+#bloc {
+    text-align: center;
+}
+
+h3 {
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+textarea {
+    height: 200px;
+    width: 40%;
+}
+
+#submit {
+    background-color: #CCCCCC;
+    font-size: 25px;
+    margin: 30px;
+    padding: 5px;
+}
+
+.page {
+    text-align: center;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+label {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+.formule {
+    margin-bottom: 20px;
+}
+
+#deconnecte {
+    display: inline-block;
+}
+
+.para {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.code {
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: #CCFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.pseudo {
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bout {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+     .bout {
+         display: block;
+         margin-bottom: 5px;
+     }
+}
